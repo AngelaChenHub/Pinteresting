@@ -1,16 +1,7 @@
 <div class = "jumbotron center">
 	<h1>Welcome to Pinteresting</h1>
-	<% if user_signed_in? %>
-	<p>Welcome to the members page</p>
-	<% else %>
-		<p>
 			<%= link_to "Sign up", new_user_registration_path, class: "btn btn-primary" %>
 			<%= link_to "Log in", new_user_session_path, class: "btn btn-default" %>
-		</p>
-	<% end %>
 </div>
 
-<div id="response">
-</div>
-
-<button id="call" class="btn btn-lg btn-info" onclick="ajax()">Hey...</button>
+<!-- <button id="call" class="btn btn-lg btn-info" onclick="ajax()">Hey...</button> -->
