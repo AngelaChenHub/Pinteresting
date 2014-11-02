@@ -14,7 +14,7 @@ gem 'spring',        group: :development
 gem 'bootstrap-sass'
 gem 'devise', '~>3.4.0'
 gem 'paperclip', "~> 4.2"
-# gem 'aws-sdk', '~>1.16.1'
+gem 'aws-sdk', '~> 1.57.0'
 
 # Only use sqlite in development (computer) and test
 group :development, :test do
