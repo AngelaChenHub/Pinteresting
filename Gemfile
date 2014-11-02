@@ -13,8 +13,8 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 gem 'bootstrap-sass'
 gem 'devise', '~>3.4.0'
-gem 'paperclip', github: 'thoughtbot/paperclip'
-gem 'aws-sdk', '~>1.16.1'
+gem 'paperclip', "~> 4.2"
+# gem 'aws-sdk', '~>1.16.1'
 
 # Only use sqlite in development (computer) and test
 group :development, :test do

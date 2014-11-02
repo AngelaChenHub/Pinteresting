@@ -38,5 +38,8 @@ Rails.application.configure do
   # required for Heroku
   # Note to se this to your actual host
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
-  
+
+  #Paperclip path
+  Paperclip.options[:command_path] = "/opt/ImageMagick/bin/convert"
+
 end
