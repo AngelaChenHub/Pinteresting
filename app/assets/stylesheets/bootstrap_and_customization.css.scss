@@ -1,6 +1,7 @@
 
 
 @import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(http://fonts.googleapis.com/css?family=Lobster);
 
 $body-bg: 													#bdc3c7;
 $font-family-sans-serif:						'Lato', 'Helvetica Neue', Helvetica;
@@ -18,3 +19,7 @@ $btn-default-bg:										#bdc3c7;
 	border-left: 20px;
 }
 
+.navbar-brand {
+	font-family: 'Lobster' ;
+	font-size: 30px;
+}
