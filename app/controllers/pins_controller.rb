@@ -47,6 +47,6 @@ class PinsController < ApplicationController
 
 # defines what you allow pass through for security reasons
     def pin_params
-      params.require(:pin).permit(:description, :image)
+      params.require(:pin).permit(:description)
     end
 end
