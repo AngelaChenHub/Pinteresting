@@ -78,8 +78,7 @@ Rails.application.configure do
 
   # required for Heroku
   # Note to se this to your actual host
-  config.action_mailer.default_url_options = { host: => 'https://angelapinterest.herokuapp.com' }
-
+  config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
   # required for Heroku
     # Set paperclip to upload images to Amazon S3
   # cconfig.paperclip_defaults = {
